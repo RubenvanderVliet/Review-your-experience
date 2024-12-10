@@ -53,11 +53,6 @@
     </div>
     <!-- end product container  -->
 
-    <div class="d-grid gap-2 my-4">
-        <a href="#" class="btn btn-light text-primary">Filter</a>
-    </div>
-    </div>
-
 
     <!-- start review container -->
     <div class="container mt-5">
@@ -67,6 +62,17 @@
                 <p class="text-muted">Lees wat onze klanten te zeggen hebben</p>
             </div>
         </div>
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Filters
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Datum</a></li>
+                <li><a class="dropdown-item" href="#">Cijfer</a></li>
+            </ul>
+        </div>
+
         <div class="row">
             <?php foreach ($reviews as $review): ?>
                 <div class="col-md-4">
@@ -107,6 +113,7 @@
         </div>
     </div>
     <!-- end review container -->
+
 
     <!-- start form container   -->
     <div class="container my-5 p-4 rounded shadow-lg bg-primary">

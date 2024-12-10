@@ -111,4 +111,19 @@ if (isset($_POST['like_review'])) {
         echo "<p class='text-danger'>Ongeldig review ID.</p>";
     }
 }
+
+
+/*$sql = "SELECT * FROM review ORDER BY time DESC, rating DESC";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        echo "time: " . $row["time"] . " - Rating: " . $row["rating"] . "<br>";
+    }
+} else {
+    echo "Geen resultaten";
+}
+$conn->close();
+*/
+
 ?>
