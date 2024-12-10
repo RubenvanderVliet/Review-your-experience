@@ -53,6 +53,12 @@
     </div>
     <!-- end product container  -->
 
+    <div class="d-grid gap-2 my-4">
+        <a href="#" class="btn btn-light text-primary">Filter</a>
+    </div>
+    </div>
+
+
     <!-- start review container -->
     <div class="container mt-5">
         <div class="row">

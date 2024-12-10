@@ -30,8 +30,8 @@
                                         PRODUCTS PAGE <!-- Titel van het dropdown menu -->
                                     </button>
                                     <ul class="dropdown-menu"> <!-- Lijst van dropdown items -->
-                                        <li><a class="dropdown-item" href="#">Hardware</a></li> <!-- Link naar hardware -->
-                                        <li><a class="dropdown-item" href="#">Pre-built</a></li> <!-- Link naar pre-built producten -->
+                                        <li><a class="dropdown-item" href="detail.php">Hardware</a></li> <!-- Link naar hardware -->
+                                        <li><a class="dropdown-item" href="detail.php">Pre-built</a></li> <!-- Link naar pre-built producten -->
                                         <li><a class="dropdown-item" href="#">Something else here</a></li> <!-- Extra item -->
                                     </ul>
                                 </div>
