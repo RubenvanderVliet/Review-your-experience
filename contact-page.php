@@ -5,9 +5,6 @@ $db = new PDO('mysql:host=localhost;dbname=tech-one;charset=utf8', 'root', '');
 $query = $db->prepare('SELECT * FROM contact');
 $query->execute();
 
-// Include external files for database functions and utility functions
-include_once 'modules/database.php';
-include_once 'modules/function.php';
 
 // Define constants for error messages
 const NAME_REQUIRED = 'Please enter your name';

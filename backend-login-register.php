@@ -54,8 +54,7 @@ $db = new PDO('mysql:host=localhost;dbname=tech-one;charset=utf8', 'root', '');
 $query = $db->prepare('SELECT *FROM user');
 $query->execute();
 
-include_once 'modules/database.php';
-include_once 'modules/function.php';
+
 
 const FIRSTNAME_REQUIRED = 'Voornaam invullen';
 const LASTNAME_REQUIRED = 'Achternaam invullen';

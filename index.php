@@ -69,8 +69,7 @@ include 'back-end.php';
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="product-page.php">Hardware</a></li>
-                                        <li><a class="dropdown-item" href="products-page-pre.php">Pre-built</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="products-page.php">Pre-built</a></li>
                                     </ul>
                                 </div>
 

@@ -63,13 +63,15 @@
             </div>
         </div>
 
-        <div class="dropdown">
+        <div class="dropdown mb-4">
             <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Filters
+                Sorteer op
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Datum</a></li>
-                <li><a class="dropdown-item" href="#">Cijfer</a></li>
+                <li><a class="dropdown-item" href="#">Datum oplopend</a></li>
+                <li><a class="dropdown-item" href="#">Datum aflopend</a></li>
+                <li><a class="dropdown-item" href="#">Rating oplopend</a></li>
+                <li><a class="dropdown-item" href="#">Rating aflopend</a></li>
             </ul>
         </div>
 
